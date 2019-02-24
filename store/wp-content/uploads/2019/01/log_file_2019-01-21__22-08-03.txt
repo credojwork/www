@@ -1,0 +1,202 @@
+
+---Downloaded files---
+The import files for: Demo Homepage 2 were successfully downloaded!
+Initial max execution time = 4000
+Files info:
+Site URL = https://ittaskforce.co.nz/store
+Data file = /home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/demo-content.xml
+Widget file = /home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/widgets.json
+Customizer file = not defined!
+Options files:
+onemall_theme -> /home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/theme_options.txt 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+SW Top Widget - No Title - Imported to Inactive
+
+orphaned_widgets_2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+SW Top Widget - No Title - Imported to Inactive
+Navigation Menu - My Account - Imported to Inactive
+SW Top Widget - No Title - Imported to Inactive
+sw_woo_search - No Title - Site does not support widget
+
+orphaned_widgets_3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - Categories - Imported to Inactive
+Filter Products by Price - By price - Imported to Inactive
+Filter Products by Attribute - Color - Imported to Inactive
+Filter Products by Attribute - Size - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+orphaned_widgets_4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - Categories - Imported to Inactive
+Filter Products by Price - By Price - Imported to Inactive
+Filter Products by Attribute - Color - Imported to Inactive
+Filter Products by Attribute - Size - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+orphaned_widgets_5 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - categories - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+orphaned_widgets_6 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - Categories - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+orphaned_widgets_7 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - Categories - Imported to Inactive
+Text - No Title - Imported to Inactive
+
+orphaned_widgets_8 : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce product categories - Categories - Imported to Inactive
+Text - No Title - Imported to Inactive
+
+orphaned_widgets_9 : Sidebar does not exist in theme (moving widget to Inactive)
+
+sw_woo_search - No Title - Site does not support widget
+
+bottom-header : Sidebar does not exist in theme (moving widget to Inactive)
+
+WooCommerce Currency Converter - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+Navigation Menu - My Account - Imported to Inactive
+SW Top Widget - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+Text - No Title - Imported to Inactive
+
+menu-bar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - No Title - Imported to Inactive
+SW Top Widget - No Title - Imported to Inactive
+
+header-left : Sidebar does not exist in theme (moving widget to Inactive)
+
+Sw Responsive Slider Widget - No Title - Imported to Inactive
+SW Top Widget - No Title - Imported to Inactive
+
+Sidebar Left Blog : 
+
+Categories - Blog Categories - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Popular Tags - Imported
+
+Sidebar Right Blog : 
+
+Categories - Blog Categories - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Popular Tags - Imported
+
+Top Header : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - No Title - Imported
+Text - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+
+Header Right : 
+
+SW Top Widget - No Title - Imported
+
+Bottom Right : 
+
+Text - No Title - Imported
+
+Sidebar Left Product : 
+
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by color - Imported
+Filter Products by Attribute - Filter by size - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Product Tags - Imported
+
+Sidebar Right Product : 
+
+Filter Products by Price - Filter by price - Imported
+Filter Products by Attribute - Filter by color - Imported
+Filter Products by Attribute - Filter by - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Product Tags - Imported
+
+Sidebar Left Detail Product : 
+
+Text - No Title - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Product tag - Imported
+
+Sidebar Right Detail Product : 
+
+Text - No Title - Imported
+Sw Woo Slider widget - No Title - Imported
+Tag Cloud - Product tag - Imported
+
+Sidebar Bottom Detail Product : 
+
+Sw Woocommerce Related &amp; Upsell Slider widget - No Title - Imported
+
+Widget Search : 
+
+sw_woo_search - No Title - Site does not support widget
+
+
+
+---pt-ocdi/after_import---
+array(10) {
+  ["import_file_name"]=>
+  string(15) "Demo Homepage 2"
+  ["page_title"]=>
+  string(11) "Home Page 2"
+  ["local_import_file"]=>
+  string(89) "/home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/demo-content.xml"
+  ["local_import_widget_file"]=>
+  string(85) "/home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/widgets.json"
+  ["local_import_revslider"]=>
+  array(1) {
+    ["Slider 2"]=>
+    string(84) "/home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/slider2.zip"
+  }
+  ["local_import_options"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["file_path"]=>
+      string(90) "/home/ittf/public_html/store/wp-content/themes/onemall/lib/import/demo-2/theme_options.txt"
+      ["option_name"]=>
+      string(13) "onemall_theme"
+    }
+  }
+  ["menu_locate"]=>
+  array(2) {
+    ["primary_menu"]=>
+    string(12) "Primary Menu"
+    ["vertical_menu"]=>
+    string(13) "Vertical Menu"
+  }
+  ["import_preview_image_url"]=>
+  string(90) "https://ittaskforce.co.nz/store/wp-content/themes/onemall/lib/import/demo-2/screenshot.png"
+  ["import_notice"]=>
+  string(114) "After you import this demo, you will have to setup the slider separately. This import maybe finish on 5-10 minutes"
+  ["preview_url"]=>
+  string(51) "http://demo.wpthemego.com/themes/sw_onemall/layout2"
+}
+

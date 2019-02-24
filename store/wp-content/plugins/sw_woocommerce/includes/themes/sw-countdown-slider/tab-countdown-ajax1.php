@@ -1,0 +1,149 @@
+<?php 
+
+/**
+	* ayout Tab Category Countdown 1
+	* @version     1.0.0
+**/
+
+	
+	$widget_id = isset( $widget_id ) ? $widget_id : $this->generateID();
+	if( $category == '' ){
+		return '<div class="alert alert-warning alert-dismissible" role="alert">
+			<a class="close" data-dismiss="alert">&times;</a>
+			<p>'. esc_html__( 'Please select a category for SW Woocommerce Tab Category Slider. Layout ', 'sw_woocommerce' ) . $layout .'</p>
+		</div>';
+	}
+	if( !is_array( $category ) ){
+		$category = explode( ',', $category );
+	}
+?>
+<div class="sw-tab-countdown sw-woo-tab-cat6 sw-ajax" id="<?php echo esc_attr( 'category_' . $widget_id ); ?>" >
+	<div class="resp-tab" style="position:relative;">
+		<div class="top-tab-slider clearfix">
+			<div class="box-title"><?php echo ( $title1 != '' ) ? '<h3><span class="fa  '.esc_attr( $icon ).'"></span>'. esc_html( $title1 ) .'</h3>' : ''; ?></div>
+			<div id="<?php echo 'list_tab_' . $widget_id; ?>" class="tab_list">
+				<ul class="nav nav-tabs">
+				<?php 
+					$i = 1;
+					foreach($category as $cat){
+						$terms = get_term_by('slug', $cat, 'product_cat');
+						if( $terms != NULL ){			
+				?>
+					<li class="<?php if( $i == $tab_active ){echo 'active loaded'; }?>">
+						<a href="#<?php echo esc_attr( $cat. '_' .$widget_id ) ?>" data-type="tab_ajax_countdown" data-layout="<?php echo esc_attr( $layout );?>" data-row="<?php echo esc_attr( $item_row2 ) ?>" data-length="<?php echo esc_attr( $title_length ) ?>" data-ajaxurl="<?php echo esc_url( sw_ajax_url() ) ?>" data-category="<?php echo esc_attr( $cat ) ?>" data-toggle="tab" data-catload="ajax" data-number="<?php echo esc_attr( $numberposts ); ?>" data-lg="<?php echo esc_attr( $columns ); ?>" data-md="<?php echo esc_attr( $columns1 ); ?>" data-sm="<?php echo esc_attr( $columns2 ); ?>" data-xs="<?php echo esc_attr( $columns3 ); ?>" data-mobile="<?php echo esc_attr( $columns4 ); ?>" data-speed="<?php echo esc_attr( $speed ); ?>" data-scroll="<?php echo esc_attr( $scroll ); ?>" data-interval="<?php echo esc_attr( $interval ); ?>"  data-autoplay="<?php echo esc_attr( $autoplay ); ?>">
+							<?php echo $terms->name; ?>
+						</a>
+					</li>	
+					<?php $i ++; ?>
+				<?php } } ?>
+				</ul>
+			</div>
+		</div>
+		<div class="tab-content">
+		<?php 
+			$active = ( $tab_active - 1 >= 0 ) ? $tab_active - 1 : 0;
+			$default = array(
+				'post_type'	=> 'product',
+				'tax_query'	=> array(
+				array(
+					'taxonomy'	=> 'product_cat',
+					'field'		=> 'slug',
+					'terms'		=> $category[$active])),
+					'orderby' => $orderby,
+					'order' => $order,
+					'post_status' => 'publish',
+					'showposts' => $numberposts,
+					'meta_query' => array(		
+					array(
+						'key' => '_sale_price',
+						'value' => 0,
+						'compare' => '>',
+						'type' => 'DECIMAL(10,5)'
+					),
+					array(
+						'key' => '_sale_price_dates_from',
+						'value' => time(),
+						'compare' => '<',
+						'type' => 'NUMERIC'
+					),
+					array(
+						'key' => '_sale_price_dates_to',
+						'value' => time(),
+						'compare' => '>',
+						'type' => 'NUMERIC'
+					)
+				)
+			);
+			$default = sw_check_product_visiblity( $default );
+			$list = new WP_Query( $default );
+		?>
+			<div class="tab-pane active" id="<?php echo esc_attr( $category[$active]. '_' .$widget_id ) ?>">
+				<?php if( $list->have_posts() ) : ?>
+				<div id="<?php echo esc_attr( 'tab_cat_'. $category[$active]. '_' .$widget_id ); ?>" class="woo-tab-container-slider responsive-slider loading clearfix" data-lg="<?php echo esc_attr( $columns ); ?>" data-md="<?php echo esc_attr( $columns1 ); ?>" data-sm="<?php echo esc_attr( $columns2 ); ?>" data-xs="<?php echo esc_attr( $columns3 ); ?>" data-mobile="<?php echo esc_attr( $columns4 ); ?>" data-speed="<?php echo esc_attr( $speed ); ?>" data-scroll="<?php echo esc_attr( $scroll ); ?>" data-interval="<?php echo esc_attr( $interval ); ?>"  data-autoplay="<?php echo esc_attr( $autoplay ); ?>">
+					<div class="resp-slider-container">
+							<div class="slider responsive">
+						<?php 
+							$count_items 	= 0;
+							$numb 			= ( $list->found_posts > 0 ) ? $list->found_posts : count( $list->posts );
+							$count_items 	= ( $numberposts >= $numb ) ? $numb : $numberposts;
+							$i 				= 0;
+							$j				= 0;
+							while($list->have_posts()): $list->the_post();
+							global $product, $post;
+							$class = ( $product->get_price_html() ) ? '' : 'item-nonprice';
+							$start_time 	= get_post_meta( $post->ID, '_sale_price_dates_from', true );
+							$countdown_date = get_post_meta( $post->ID, '_sale_price_dates_to', true );	
+							if( $i % $item_row2 == 0 ){
+						?>
+							<div class="item <?php echo esc_attr( $class ) ?> <?php echo 'item-'.esc_attr( $item_row2 ).'columns' ?> product clearfix">
+						<?php } ?>
+								<div class="item-wrap5 <?php echo ( $i % $item_row2 == 0 ) ? 'first-item' : ''; ?>">
+									<div class="item-detail">										
+										<div class="item-img products-thumb">
+										   <?php sw_label_sales(); ?>
+											<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+												<?php 
+													$id = get_the_ID();
+													if ( has_post_thumbnail() ){
+															echo get_the_post_thumbnail( $post->ID, 'large' ) ? get_the_post_thumbnail( $post->ID, 'large' ): '<img src="'.get_template_directory_uri().'/assets/img/placeholder/'.'large'.'.png" alt="No thumb">';		
+													}else{
+														echo '<img src="'.get_template_directory_uri().'/assets/img/placeholder/'.'large'.'.png" alt="No thumb">';
+													}
+												?>
+											</a>
+											<?php echo onemall_quickview(); ?>
+												<?php if( $i % $item_row2 == 0 ) : ?>
+													<div class="product-countdown countdown-style2" data-date="<?php echo esc_attr( $countdown_date ); ?>"  data-starttime="<?php echo esc_attr( $start_time ); ?>"></div>					
+												<?php endif; ?>
+										</div>										
+										<div class="item-content">																												
+											<h4><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php sw_trim_words( get_the_title(), $title_length ); ?></a></h4>								
+											<!-- price -->
+											<?php if ( $price_html = $product->get_price_html() ){?>
+												<div class="item-price">
+													<span>
+														<?php echo $price_html; ?>
+													</span>
+												</div>
+											<?php } ?>
+											<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+										</div>								
+									</div>
+								</div>
+							<?php if( ( $i+1 ) % $item_row2 == 0 || ( $i+1 ) == $count_items ){?> </div><?php } ?>
+						<?php $i++; $j++; endwhile; wp_reset_postdata();?>
+						</div>
+					</div>
+				</div>			
+				<?php 
+					else :
+						echo '<div class="alert alert-warning alert-dismissible" role="alert">
+						<a class="close" data-dismiss="alert">&times;</a>
+						<p>'. esc_html__( 'There is not product on this tab', 'sw_woocommerce' ) .'</p>
+						</div>';
+					endif;
+				?>
+			</div>
+		</div>
+	</div>
+</div>

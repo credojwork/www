@@ -1,0 +1,156 @@
+.error404{
+	.header, .footer{
+		display:none;
+	}
+	.wrapper_404{
+		background: url('../assets/img/bg_404.jpg') no-repeat center center;
+		width: 100%;
+		height: auto;
+		min-height:1080px;
+		text-align: center;
+		.content_404 {
+			padding-top: 170px;
+			padding-bottom: 90px;
+			.block-top{
+				.error-top{
+					font-family:'LoraItalic';
+					font-size:110px;
+					color:#fff;
+					margin-bottom:30px;
+					span{
+						color:@color;
+					}
+				}
+				.warning-code{
+					font-size:15px;
+					color:#fff;
+					margin-bottom:40px;
+				}
+				.des1{
+					color:#d9d9d9;
+					margin-bottom:32px;
+					.flag{
+						text-transform:uppercase;
+						color:#fff;
+						font-size:14px;
+					}
+				}
+			}
+			.block-middle{
+				text-align:center;
+				.onemall_search_404{
+					.top-form.top-search{
+						display:inline-block;
+						float:none;
+						margin-bottom:20px;
+						form{
+							overflow:hidden;
+							.cat-wrapper{
+								display:none;
+							}
+							input{
+								height:50px;
+								float:left;
+								padding:0 50px;
+								border:0;
+								border-radius:3px;
+								min-width:340px;
+								border-top-right-radius:0;
+								border-bottom-right-radius:0;
+							}
+							button{
+								height:50px;
+								font-size:12px;
+								text-transform:uppercase;
+								color:#fff;
+								padding:0 40px;
+								background-color:@color;
+								border:0;
+								font-weight:600;
+								border-top-left-radius:0;
+								border-bottom-left-radius:0;
+							}
+						}
+					}
+				}
+			}
+			.block-bottom a{
+				font-size:14px;
+				color:#fff;
+				text-transform:uppercase;
+				font-weight:600;
+				&:hover{
+					color:@color;
+				}
+				i{
+					margin-left:10px;
+				}
+			}
+		}
+	}
+	&.rtl{
+		.wrapper_404 .content_404 .block-middle .onemall_search_404 .top-form.top-search form input{
+			float:right;
+			border-radius:0;
+			border-top-right-radius:4px;
+			border-bottom-right-radius:4px;
+		}
+		.wrapper_404 .content_404 .block-middle .onemall_search_404 .top-form.top-search form button{
+			border-radius:0;
+			border-top-left-radius:4px;
+			border-bottom-left-radius:4px;
+		}
+		.wrapper_404 .content_404 .block-bottom a i.fa-angle-right{
+			margin-right:10px;
+			margin-left:0;
+			&:before{
+				content:'\f104';
+			}
+		}
+	}
+}
+@media( max-width: 1366px ){
+	.error404 .wrapper_404{
+		min-height:600px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.error404 .wrapper_404{
+		min-height:768px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.error404 .wrapper_404{
+		min-height:1024px;
+	}
+	.error404 .wrapper_404 .content_404 .block-top .error-top{
+		font-size:80px;
+	}
+}
+
+@media( max-width: 767px ){
+	.error404 .wrapper_404 .content_404 .block-top .error-top{
+		font-size:60px;
+	}
+}
+
+@media(max-width: 480px){
+	.error404 .wrapper_404 .content_404 .block-middle .onemall_search_404 .top-form.top-search form{
+		input{
+			min-width:200px;
+			padding:0 20px;
+		}
+		button{
+			padding:0 20px;
+		}
+	}
+	.error404 .wrapper_404 .content_404 .block-top .error-top{
+		font-size:40px;
+	}
+}
+
+@media(max-width: 480px){
+
+}

@@ -1,0 +1,1639 @@
+0974.727 (1) Opened log file at time: Tue, 03 Jul 2018 20:52:32 +0000 on https://ittaskforce.co.nz
+0974.728 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0974.729 (1) Free space on disk containing Updraft's temporary directory: 1078 MB
+0974.732 (1) Backup run: resumption=1, nonce=0741548689b6, begun at=1530650177 (975s ago), job type=backup, previous check-in=19.8s
+0974.733 (1) Scheduling a resumption (2) after 300 seconds (1530651452) in case this run gets aborted
+0974.735 (1) Checking if we have a zip executable available
+0974.736 (1) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+0974.737 (1) Creation of backups of directories: already finished
+0974.738 (1) Saving backup status to database (elements: 8)
+0974.748 (1) Database dump (WordPress DB): Creation was completed already
+0974.758 (1) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0974.759 (1) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0974.760 (1) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0974.761 (1) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0974.762 (1) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+0974.765 (1) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+0974.769 (1) Saving backup history. Total backup size: Unknown
+0974.778 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0974.781 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0974.782 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+0974.788 (1) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0974.790 (1) FTP Failure: we did not successfully log in with those credentials.
+0974.815 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+0974.818 (1) Number of backup sets in history: 37; groups (db): 1
+0974.819 (1) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+0974.819 (1) This backup set is the backup set just made, so will not be deleted.
+0974.819 (1) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+0974.819 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.820 (1) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.821 (1) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+0974.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.822 (1) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+0974.822 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.823 (1) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+0974.823 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.824 (1) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+0974.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+0974.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.825 (1) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+0974.826 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.826 (1) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+0974.826 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.826 (1) Number of backup sets in history: 37; groups (files): 1
+0974.827 (1) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+0974.827 (1) This backup set is the backup set just made, so will not be deleted.
+0974.828 (1) This backup set is the backup set just made, so will not be deleted.
+0974.828 (1) This backup set is the backup set just made, so will not be deleted.
+0974.829 (1) This backup set is the backup set just made, so will not be deleted.
+0974.829 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+0974.830 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.830 (1) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+0974.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.831 (1) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.832 (1) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+0974.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.833 (1) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+0974.833 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.834 (1) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+0974.834 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.835 (1) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+0974.835 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.835 (1) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+0974.835 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0974.835 (1) Retain: saving new backup history (sets now: 37) and finishing retain operation
+0974.839 (1) Resume backup (0741548689b6, 1): finish run
+0974.841 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0974.843 (1) No email will/can be sent - the user has not configured an email address.
+0974.845 (1) The backup has not finished; a resumption is scheduled
+1351.567 (2) Opened log file at time: Tue, 03 Jul 2018 20:58:49 +0000 on https://ittaskforce.co.nz
+1351.568 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1351.569 (2) Free space on disk containing Updraft's temporary directory: 1077.9 MB
+1351.572 (2) Backup run: resumption=2, nonce=0741548689b6, begun at=1530650177 (1352s ago), job type=backup
+1351.573 (2) Scheduling a resumption (3) after 300 seconds (1530651829) in case this run gets aborted
+1351.575 (2) Checking if we have a zip executable available
+1351.576 (2) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+1351.577 (2) Creation of backups of directories: already finished
+1351.578 (2) Saving backup status to database (elements: 8)
+1351.587 (2) Database dump (WordPress DB): Creation was completed already
+1351.597 (2) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1351.598 (2) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1351.599 (2) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1351.601 (2) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+1351.602 (2) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+1351.604 (2) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+1351.607 (2) Saving backup history. Total backup size: Unknown
+1351.618 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+1351.620 (2) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+1351.621 (2) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+1351.625 (2) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+1351.627 (2) FTP Failure: we did not successfully log in with those credentials.
+1351.630 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+1351.632 (2) Number of backup sets in history: 37; groups (db): 1
+1351.634 (2) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+1351.634 (2) This backup set is the backup set just made, so will not be deleted.
+1351.634 (2) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+1351.634 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.635 (2) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+1351.635 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+1351.636 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.636 (2) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+1351.637 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.637 (2) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.638 (2) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+1351.638 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.639 (2) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+1351.639 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.640 (2) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+1351.640 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.640 (2) Number of backup sets in history: 37; groups (files): 1
+1351.641 (2) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+1351.641 (2) This backup set is the backup set just made, so will not be deleted.
+1351.642 (2) This backup set is the backup set just made, so will not be deleted.
+1351.642 (2) This backup set is the backup set just made, so will not be deleted.
+1351.642 (2) This backup set is the backup set just made, so will not be deleted.
+1351.642 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.643 (2) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+1351.643 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.643 (2) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+1351.643 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.643 (2) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+1351.643 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.644 (2) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+1351.644 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.645 (2) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+1351.645 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.646 (2) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+1351.646 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+1351.647 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.647 (2) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+1351.648 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.648 (2) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+1351.648 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.648 (2) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+1351.648 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.648 (2) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+1351.648 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.648 (2) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+1351.648 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1351.648 (2) Retain: saving new backup history (sets now: 37) and finishing retain operation
+1351.652 (2) Resume backup (0741548689b6, 2): finish run
+1351.654 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1351.656 (2) No email will/can be sent - the user has not configured an email address.
+1351.657 (2) The backup has not finished; a resumption is scheduled
+1811.836 (3) Opened log file at time: Tue, 03 Jul 2018 21:06:29 +0000 on https://ittaskforce.co.nz
+1811.837 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1811.837 (3) Free space on disk containing Updraft's temporary directory: 1077.8 MB
+1811.839 (3) Backup run: resumption=3, nonce=0741548689b6, begun at=1530650177 (1812s ago), job type=backup
+1811.840 (3) Scheduling a resumption (4) after 300 seconds (1530652289) in case this run gets aborted
+1811.842 (3) Checking if we have a zip executable available
+1811.842 (3) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+1811.843 (3) Creation of backups of directories: already finished
+1811.843 (3) Saving backup status to database (elements: 8)
+1811.850 (3) Database dump (WordPress DB): Creation was completed already
+1811.856 (3) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1811.857 (3) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1811.858 (3) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1811.858 (3) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+1811.859 (3) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+1811.861 (3) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+1811.863 (3) Saving backup history. Total backup size: Unknown
+1811.869 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+1811.870 (3) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+1811.871 (3) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+1811.875 (3) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+1811.876 (3) FTP Failure: we did not successfully log in with those credentials.
+1811.881 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+1811.883 (3) Number of backup sets in history: 37; groups (db): 1
+1811.883 (3) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+1811.883 (3) This backup set is the backup set just made, so will not be deleted.
+1811.883 (3) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+1811.883 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+1811.884 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.884 (3) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+1811.885 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.885 (3) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+1811.886 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.886 (3) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+1811.887 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.887 (3) Number of backup sets in history: 37; groups (files): 1
+1811.888 (3) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+1811.888 (3) This backup set is the backup set just made, so will not be deleted.
+1811.889 (3) This backup set is the backup set just made, so will not be deleted.
+1811.889 (3) This backup set is the backup set just made, so will not be deleted.
+1811.889 (3) This backup set is the backup set just made, so will not be deleted.
+1811.889 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.890 (3) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+1811.890 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.891 (3) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+1811.891 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.892 (3) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+1811.892 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+1811.893 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1811.893 (3) Retain: saving new backup history (sets now: 37) and finishing retain operation
+1811.896 (3) Resume backup (0741548689b6, 3): finish run
+1811.897 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1811.899 (3) No email will/can be sent - the user has not configured an email address.
+1811.900 (3) The backup has not finished; a resumption is scheduled
+2388.275 (4) Opened log file at time: Tue, 03 Jul 2018 21:16:06 +0000 on https://ittaskforce.co.nz
+2388.276 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2388.277 (4) Free space on disk containing Updraft's temporary directory: 1077.8 MB
+2388.280 (4) Backup run: resumption=4, nonce=0741548689b6, begun at=1530650177 (2389s ago), job type=backup
+2388.281 (4) Scheduling a resumption (5) after 300 seconds (1530652866) in case this run gets aborted
+2388.284 (4) Checking if we have a zip executable available
+2388.285 (4) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+2388.286 (4) Creation of backups of directories: already finished
+2388.287 (4) Saving backup status to database (elements: 8)
+2388.296 (4) Database dump (WordPress DB): Creation was completed already
+2388.306 (4) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2388.307 (4) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2388.309 (4) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2388.309 (4) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+2388.310 (4) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+2388.313 (4) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+2388.317 (4) Saving backup history. Total backup size: Unknown
+2388.340 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+2388.343 (4) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+2388.344 (4) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+2388.348 (4) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+2388.349 (4) FTP Failure: we did not successfully log in with those credentials.
+2388.352 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+2388.355 (4) Number of backup sets in history: 37; groups (db): 1
+2388.356 (4) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+2388.356 (4) This backup set is the backup set just made, so will not be deleted.
+2388.356 (4) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+2388.356 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.357 (4) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+2388.357 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.357 (4) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+2388.357 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.358 (4) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+2388.358 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.359 (4) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+2388.359 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.360 (4) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+2388.360 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+2388.361 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.361 (4) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+2388.362 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.362 (4) Number of backup sets in history: 37; groups (files): 1
+2388.364 (4) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+2388.364 (4) This backup set is the backup set just made, so will not be deleted.
+2388.365 (4) This backup set is the backup set just made, so will not be deleted.
+2388.365 (4) This backup set is the backup set just made, so will not be deleted.
+2388.365 (4) This backup set is the backup set just made, so will not be deleted.
+2388.365 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.366 (4) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+2388.366 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.366 (4) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+2388.366 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.366 (4) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+2388.366 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+2388.367 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.367 (4) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.368 (4) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+2388.368 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+2388.369 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.369 (4) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.370 (4) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+2388.370 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.371 (4) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+2388.371 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.371 (4) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+2388.371 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.371 (4) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+2388.371 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.371 (4) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+2388.371 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2388.371 (4) Retain: saving new backup history (sets now: 37) and finishing retain operation
+2388.375 (4) Resume backup (0741548689b6, 4): finish run
+2388.377 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2388.379 (4) No email will/can be sent - the user has not configured an email address.
+2388.380 (4) The backup has not finished; a resumption is scheduled
+3701.319 (5) Opened log file at time: Tue, 03 Jul 2018 21:37:59 +0000 on https://ittaskforce.co.nz
+3701.321 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+3701.322 (5) Free space on disk containing Updraft's temporary directory: 1078.7 MB
+3701.330 (5) Backup run: resumption=5, nonce=0741548689b6, begun at=1530650177 (3702s ago), job type=backup
+3701.331 (5) Long time past since expected resumption time: approx expected=1530652865.4, now=1530653879.1, diff=1013.6
+3701.332 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3701.333 (5) Scheduling a resumption (6) after 300 seconds (1530654179) in case this run gets aborted
+3701.336 (5) Checking if we have a zip executable available
+3701.341 (5) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+3701.342 (5) Creation of backups of directories: already finished
+3701.343 (5) Saving backup status to database (elements: 8)
+3701.361 (5) Database dump (WordPress DB): Creation was completed already
+3701.381 (5) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3701.382 (5) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3701.383 (5) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3701.384 (5) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+3701.385 (5) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+3701.388 (5) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+3701.392 (5) Saving backup history. Total backup size: Unknown
+3701.413 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+3701.416 (5) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+3701.417 (5) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+3701.432 (5) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+3701.434 (5) FTP Failure: we did not successfully log in with those credentials.
+3701.437 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+3701.440 (5) Number of backup sets in history: 37; groups (db): 1
+3701.441 (5) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+3701.441 (5) This backup set is the backup set just made, so will not be deleted.
+3701.441 (5) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+3701.441 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.443 (5) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+3701.443 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.443 (5) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+3701.443 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.444 (5) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+3701.444 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.444 (5) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+3701.446 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.446 (5) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+3701.446 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.446 (5) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+3701.446 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.446 (5) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+3701.446 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.447 (5) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+3701.447 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.448 (5) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+3701.448 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.449 (5) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+3701.449 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.450 (5) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+3701.450 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.451 (5) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+3701.451 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.451 (5) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+3701.451 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.451 (5) Number of backup sets in history: 37; groups (files): 1
+3701.458 (5) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+3701.458 (5) This backup set is the backup set just made, so will not be deleted.
+3701.459 (5) This backup set is the backup set just made, so will not be deleted.
+3701.460 (5) This backup set is the backup set just made, so will not be deleted.
+3701.460 (5) This backup set is the backup set just made, so will not be deleted.
+3701.460 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.461 (5) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+3701.461 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+3701.462 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.462 (5) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.463 (5) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+3701.463 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.464 (5) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+3701.464 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.464 (5) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+3701.464 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.467 (5) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+3701.467 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.467 (5) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+3701.467 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.467 (5) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+3701.467 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.467 (5) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+3701.467 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3701.467 (5) Retain: saving new backup history (sets now: 37) and finishing retain operation
+3701.470 (5) Resume backup (0741548689b6, 5): finish run
+3701.472 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3701.473 (5) No email will/can be sent - the user has not configured an email address.
+3701.474 (5) The backup has not finished; a resumption is scheduled
+4409.272 (6) Opened log file at time: Tue, 03 Jul 2018 21:49:47 +0000 on https://ittaskforce.co.nz
+4409.273 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+4409.274 (6) Free space on disk containing Updraft's temporary directory: 1078.6 MB
+4409.277 (6) Backup run: resumption=6, nonce=0741548689b6, begun at=1530650177 (4410s ago), job type=backup
+4409.278 (6) Scheduling a resumption (7) after 300 seconds (1530654887) in case this run gets aborted
+4409.281 (6) Checking if we have a zip executable available
+4409.281 (6) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+4409.282 (6) Creation of backups of directories: already finished
+4409.283 (6) Saving backup status to database (elements: 8)
+4409.293 (6) Database dump (WordPress DB): Creation was completed already
+4409.303 (6) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4409.304 (6) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4409.305 (6) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4409.306 (6) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+4409.307 (6) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+4409.310 (6) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+4409.314 (6) Saving backup history. Total backup size: Unknown
+4409.324 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+4409.327 (6) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+4409.328 (6) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+4409.332 (6) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+4409.333 (6) FTP Failure: we did not successfully log in with those credentials.
+4409.337 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+4409.339 (6) Number of backup sets in history: 37; groups (db): 1
+4409.340 (6) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+4409.340 (6) This backup set is the backup set just made, so will not be deleted.
+4409.340 (6) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+4409.340 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.341 (6) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+4409.341 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.342 (6) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+4409.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.343 (6) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+4409.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.344 (6) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+4409.344 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.345 (6) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+4409.345 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+4409.346 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.346 (6) Number of backup sets in history: 37; groups (files): 1
+4409.348 (6) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+4409.348 (6) This backup set is the backup set just made, so will not be deleted.
+4409.349 (6) This backup set is the backup set just made, so will not be deleted.
+4409.349 (6) This backup set is the backup set just made, so will not be deleted.
+4409.349 (6) This backup set is the backup set just made, so will not be deleted.
+4409.349 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.350 (6) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+4409.350 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.350 (6) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+4409.350 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.350 (6) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+4409.350 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.351 (6) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+4409.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.352 (6) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+4409.352 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.353 (6) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+4409.353 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.354 (6) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+4409.354 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+4409.355 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+4409.355 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+4409.355 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+4409.355 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+4409.355 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+4409.355 (6) Retain: saving new backup history (sets now: 37) and finishing retain operation
+4409.359 (6) Resume backup (0741548689b6, 6): finish run
+4409.361 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4409.363 (6) No email will/can be sent - the user has not configured an email address.
+4409.365 (6) The backup has not finished; a resumption is scheduled
+4725.149 (7) Opened log file at time: Tue, 03 Jul 2018 21:55:02 +0000 on https://ittaskforce.co.nz
+4725.152 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+4725.153 (7) Free space on disk containing Updraft's temporary directory: 1078.6 MB
+4725.156 (7) Backup run: resumption=7, nonce=0741548689b6, begun at=1530650177 (4725s ago), job type=backup
+4725.157 (7) Scheduling a resumption (8) after 300 seconds (1530655202) in case this run gets aborted
+4725.161 (7) Checking if we have a zip executable available
+4725.172 (7) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+4725.173 (7) Creation of backups of directories: already finished
+4725.174 (7) Saving backup status to database (elements: 8)
+4725.190 (7) Database dump (WordPress DB): Creation was completed already
+4725.209 (7) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4725.210 (7) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4725.211 (7) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4725.212 (7) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+4725.213 (7) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+4725.215 (7) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+4725.220 (7) Saving backup history. Total backup size: Unknown
+4725.236 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+4725.238 (7) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+4725.239 (7) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+4725.244 (7) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+4725.246 (7) FTP Failure: we did not successfully log in with those credentials.
+4725.249 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+4725.251 (7) Number of backup sets in history: 37; groups (db): 1
+4725.253 (7) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+4725.253 (7) This backup set is the backup set just made, so will not be deleted.
+4725.253 (7) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+4725.253 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.254 (7) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+4725.254 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.254 (7) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+4725.254 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.254 (7) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+4725.254 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.254 (7) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+4725.254 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.254 (7) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+4725.254 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.255 (7) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+4725.255 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.256 (7) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+4725.256 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.257 (7) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+4725.257 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.258 (7) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+4725.258 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.259 (7) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+4725.259 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.259 (7) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+4725.259 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.259 (7) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+4725.259 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.259 (7) Number of backup sets in history: 37; groups (files): 1
+4725.260 (7) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+4725.260 (7) This backup set is the backup set just made, so will not be deleted.
+4725.261 (7) This backup set is the backup set just made, so will not be deleted.
+4725.262 (7) This backup set is the backup set just made, so will not be deleted.
+4725.262 (7) This backup set is the backup set just made, so will not be deleted.
+4725.262 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.263 (7) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+4725.263 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+4725.264 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.264 (7) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.265 (7) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+4725.265 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.266 (7) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+4725.266 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+4725.267 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.267 (7) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+4725.268 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.268 (7) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+4725.268 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.268 (7) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+4725.268 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4725.268 (7) Retain: saving new backup history (sets now: 37) and finishing retain operation
+4725.272 (7) Resume backup (0741548689b6, 7): finish run
+4725.274 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4725.277 (7) No email will/can be sent - the user has not configured an email address.
+4725.278 (7) The backup has not finished; a resumption is scheduled
+5123.463 (8) Opened log file at time: Tue, 03 Jul 2018 22:01:41 +0000 on http://ittaskforce.co.nz
+5123.464 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+5123.465 (8) Free space on disk containing Updraft's temporary directory: 1078.6 MB
+5123.468 (8) Backup run: resumption=8, nonce=0741548689b6, begun at=1530650177 (5124s ago), job type=backup
+5123.469 (8) Scheduling a resumption (9) after 300 seconds (1530655601) in case this run gets aborted
+5123.471 (8) Checking if we have a zip executable available
+5123.472 (8) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+5123.473 (8) Creation of backups of directories: already finished
+5123.474 (8) Saving backup status to database (elements: 8)
+5123.484 (8) Database dump (WordPress DB): Creation was completed already
+5123.494 (8) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5123.495 (8) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5123.496 (8) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5123.497 (8) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+5123.498 (8) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+5123.500 (8) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+5123.504 (8) Saving backup history. Total backup size: Unknown
+5123.514 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+5123.517 (8) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+5123.518 (8) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+5123.522 (8) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+5123.523 (8) FTP Failure: we did not successfully log in with those credentials.
+5123.527 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+5123.529 (8) Number of backup sets in history: 37; groups (db): 1
+5123.530 (8) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+5123.530 (8) This backup set is the backup set just made, so will not be deleted.
+5123.530 (8) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+5123.530 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.531 (8) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+5123.531 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.532 (8) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+5123.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+5123.533 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.533 (8) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.534 (8) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+5123.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.535 (8) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+5123.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.536 (8) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+5123.536 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.537 (8) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+5123.537 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.537 (8) Number of backup sets in history: 37; groups (files): 1
+5123.538 (8) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+5123.538 (8) This backup set is the backup set just made, so will not be deleted.
+5123.539 (8) This backup set is the backup set just made, so will not be deleted.
+5123.539 (8) This backup set is the backup set just made, so will not be deleted.
+5123.539 (8) This backup set is the backup set just made, so will not be deleted.
+5123.539 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.540 (8) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+5123.540 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.541 (8) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+5123.541 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.542 (8) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+5123.542 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.543 (8) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+5123.543 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.544 (8) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+5123.544 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+5123.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.545 (8) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+5123.546 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5123.546 (8) Retain: saving new backup history (sets now: 37) and finishing retain operation
+5123.550 (8) Resume backup (0741548689b6, 8): finish run
+5123.552 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5123.554 (8) No email will/can be sent - the user has not configured an email address.
+5123.555 (8) The backup has not finished; a resumption is scheduled
+5446.243 (9) Opened log file at time: Tue, 03 Jul 2018 22:07:03 +0000 on https://ittaskforce.co.nz
+5446.244 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.6 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+5446.245 (9) Free space on disk containing Updraft's temporary directory: 1078.5 MB
+5446.247 (9) Backup run: resumption=9, nonce=0741548689b6, begun at=1530650177 (5446s ago), job type=backup
+5446.247 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+5446.248 (9) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+5446.249 (9) Creation of backups of directories: already finished
+5446.249 (9) Saving backup status to database (elements: 8)
+5446.255 (9) Database dump (WordPress DB): Creation was completed already
+5446.262 (9) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5446.262 (9) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5446.263 (9) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5446.264 (9) backup_2018-07-04-0836_IT_Task_Force_07cc07676a9e-others.zip: others: This file has not yet been successfully uploaded: will queue
+5446.265 (9) backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/ittaskforce.nz/public_html/wp-content/updraft/backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz)
+5446.266 (9) Recording as successfully uploaded: backup_2018-07-04-0836_IT_Task_Force_0741548689b6-db.gz (b0e01ec418dd1997d0c4864a6efb7b1c)
+5446.268 (9) Saving backup history. Total backup size: Unknown
+5446.274 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+5446.275 (9) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+5446.276 (9) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+5446.286 (9) PHP event: code E_WARNING: ftp_login(): Login or password incorrect! (line 46, wp-content/plugins/updraftplus/includes/ftp.class.php)
+5446.287 (9) FTP Failure: we did not successfully log in with those credentials.
+5446.289 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+5446.291 (9) Number of backup sets in history: 37; groups (db): 1
+5446.292 (9) Examining (for databases) backup set with group_id=0, nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+5446.292 (9) This backup set is the backup set just made, so will not be deleted.
+5446.292 (9) Examining (for databases) backup set with group_id=0, nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+5446.292 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.292 (9) Examining (for databases) backup set with group_id=0, nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+5446.292 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+5446.293 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.293 (9) Examining (for databases) backup set with group_id=0, nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.294 (9) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+5446.294 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.295 (9) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+5446.295 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.296 (9) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+5446.296 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.296 (9) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+5446.296 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.296 (9) Number of backup sets in history: 37; groups (files): 1
+5446.297 (9) Examining (for files) backup set with nonce=0741548689b6, datestamp=1530650177 (Jul 03 2018 20:36:17)
+5446.297 (9) This backup set is the backup set just made, so will not be deleted.
+5446.298 (9) This backup set is the backup set just made, so will not be deleted.
+5446.298 (9) This backup set is the backup set just made, so will not be deleted.
+5446.298 (9) This backup set is the backup set just made, so will not be deleted.
+5446.298 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=e09b56c2d9fc, datestamp=1530044620 (Jun 26 2018 20:23:40)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=139b90f27445, datestamp=1529439752 (Jun 19 2018 20:22:32)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=a60cd6eed56a, datestamp=1528835426 (Jun 12 2018 20:30:26)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=ac5c342c82a5, datestamp=1528230563 (Jun 05 2018 20:29:23)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=617debcebb75, datestamp=1527626442 (May 29 2018 20:40:42)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=da50dd5af35b, datestamp=1527020672 (May 22 2018 20:24:32)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=c4dc310710d4, datestamp=1526415845 (May 15 2018 20:24:05)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=dd1935885351, datestamp=1525811261 (May 08 2018 20:27:41)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=b6fbfe56ac57, datestamp=1525206081 (May 01 2018 20:21:21)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.299 (9) Examining (for files) backup set with nonce=e9e2cb7b26cc, datestamp=1524602598 (Apr 24 2018 20:43:18)
+5446.299 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=5e64ae8344bd, datestamp=1523996548 (Apr 17 2018 20:22:28)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=63f63813b4c8, datestamp=1523391662 (Apr 10 2018 20:21:02)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=25218d38dd39, datestamp=1522786845 (Apr 03 2018 20:20:45)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=b56a395be923, datestamp=1522182261 (Mar 27 2018 20:24:21)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=e4b64d7d7a12, datestamp=1521577264 (Mar 20 2018 20:21:04)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=70df6dce9706, datestamp=1520972568 (Mar 13 2018 20:22:48)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=364df642cfe8, datestamp=1520367741 (Mar 06 2018 20:22:21)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=0d6cf5f9cce8, datestamp=1519763678 (Feb 27 2018 20:34:38)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=63eb15ad0858, datestamp=1519158079 (Feb 20 2018 20:21:19)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.300 (9) Examining (for files) backup set with nonce=b1a5bc17195e, datestamp=1518553504 (Feb 13 2018 20:25:04)
+5446.300 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.301 (9) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+5446.301 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+5446.302 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5446.302 (9) Retain: saving new backup history (sets now: 37) and finishing retain operation
+5446.305 (9) Resume backup (0741548689b6, 9): finish run
+5446.307 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5446.308 (9) No email will/can be sent - the user has not configured an email address.
+5446.309 (9) The backup attempt has finished, apparently unsuccessfully

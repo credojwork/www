@@ -1,0 +1,361 @@
+/* Themify Customize Styling */
+#site-logo {		position:relative;
+
+	right: 15%; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #ff7e33; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #ff5e00; 
+}
+#footerwrap {	background: none;
+	background-color: #090a0c; 
+}
+#footer {	
+	color: #ffffff; 
+}
+#footer a {	
+	color: #ff5e00; 
+}
+
+/* Themify Custom CSS */
+/*** HEADER COLORE ***/#headerwrap {
+  background: rgba(0,0,0,0.6)!important;
+}
+
+
+#main-nav a:hover, #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav ul a:hover, #main-nav .mega-menu-posts a:hover, #headerwrap .sidemenu-on #main-nav a:hover, #headerwrap .sidemenu-on #main-nav ul a:hover, #headerwrap .sidemenu-on #main-nav .current_page_item > a, #headerwrap .sidemenu-on #main-nav .current-menu-item > a {
+    color: #ff7e33;
+}
+
+
+ /* #menu-item-405 a{ 
+ padding: 0.9em; 
+ margin: 0.9em; 
+ width: 100px;
+ } */
+
+ .main-nav #menu-item-422 a:hover{ 
+   color: #fff!important;
+ }
+
+
+/*** FORMATIERUNG FUER MOBILE ***/@media screen and (max-width: 480px){
+h1 {
+font-size:2.2em!important;
+}
+h2 {
+font-size:1.8em!important;
+}
+h3 {
+font-size:1.2em!important;
+}
+}
+
+
+/*** remove Outline from Link & images ***/
+
+a:focus {
+    outline: none !important;
+}
+
+
+/*** Testimonials color ***/
+
+.lawyers-section .image-wrap{
+border-bottom: 5px solid #ff5e00;
+}
+.module-testimonial-slider .testimonial-title, .module-testimonial-slider .testimonial-entry-content{
+background: #ff5e00;
+}
+.testimonial-entry-content:after{
+border-top: 12px solid #ff5e00;
+}
+
+.testimonials.module-slider.themify_builder_slider_vertical .carousel-prev, .testimonials.module-slider.themify_builder_slider_vertical .carousel-next {
+    color: #ff5e00;
+}
+
+.themify_builder_slider_wrap .carousel-prev:before, .themify_builder_slider_wrap .carousel-next:before {
+    border-bottom-color: #ff5e00;
+    border-right-color: #ff5e00;
+}
+
+
+
+
+
+/*** HIGHLITED COLOR ***/
+::selection {
+ background: #ffb488!important;
+ color: #fff !important;
+ /* WebKit/Blink Browsers */}
+::-moz-selection {
+ background: #ffb488 !important;
+ color: #fff !important;
+ /* Gecko Browsers */}
+
+
+/*** back top arrow ***/
+#footerwrap .back-top a {
+	color: #fff;
+background-color: #ff5e00;
+}
+
+.footer-block.default #footerwrap .back-top a:hover, 
+#footerwrap .back-top a:hover {
+	color: #fff;
+background-color: #000;
+}
+
+/*** Services Page ***/
+/*** Button Contact color ***/
+
+.ui.blue.builder_button {
+    background: #ff5e00;
+    border-color: #ff5e00;
+    text-transform: uppercase;
+}
+
+.ui.blue.builder_button:hover, .ui.blue.nav li:hover, .ui.blue.module-accordion li:hover .accordion-title, .ui.blue.module-tab .tab-nav li:hover {
+    background: #000;
+    border-color: #000;
+}
+
+
+/*** mobile menu color***/
+.mobile_menu_active #mobile-menu.sidemenu-on {
+    background-color: #090a0c;
+}
+.mobile_menu_active #headerwrap #main-nav > li >a{
+color: #fff;
+}
+
+
+.mobile_menu_active #main-nav .current-menu-item > a {
+    color: #ff5e00!important;
+}
+
+
+
+.mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover {
+    color: #ff7e33;
+}
+
+
+/*** Strich gleiche Farbe wie Background ***/
+
+.mobile_menu_active #headerwrap #main-nav #menu-item-422 a {
+    color: #090a0c;
+}
+
+.mobile_menu_active #main-nav #menu-item-422 a:hover{ 
+   color: #090a0c;
+ }
+
+
+.mobile_menu_active #main-nav #menu-item-422 a{ 
+   color: #090a0c!important;
+ }
+
+
+
+.transparent-header #header #menu-icon-close {
+    color: #FFF;
+}
+
+.mobile_menu_active #headerwrap #main-nav a, .mobile_menu_active #headerwrap #main-nav ul a {
+    color: #fff;
+}
+
+.mobile_menu_active #main-nav .page_item_has_children .child-arrow:before, .mobile_menu_active #main-nav .menu-item-has-children .child-arrow:before {
+    color: #fff;
+    background-color: #ff5e00;
+}
+
+.mobile_menu_active #main-nav .page_item_has_children .child-arrow:hover:before, .mobile_menu_active #main-nav .menu-item-has-children .child-arrow:hover:before {
+    background: #ff9e66;
+}
+
+
+/*** LOGO Icon for Mobile ***/
+
+@media screen and (max-width: 720px){
+#headerwrap #site-logo img{
+height: 20px;
+max-width: 250px;
+}
+}
+
+
+
+/*** Contact Form ***/
+
+#responsive-form{
+	max-width:600px /*-- change this to get your desired form width --*/;
+	margin:0 auto;
+        width:100%;
+}
+
+.form-row{
+	width: 100%;
+}
+.column-half{
+	float: left;
+	position: relative;
+	padding: 0.65rem;
+	width:100%;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+}
+
+.column-full{
+	float: left;
+        width:100%;
+	padding: 0.65rem;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+        margin-right: -15;
+        clear: right;
+}
+
+
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { 
+	.column-half{
+		width: 50%;
+	}
+}
+
+
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box
+}
+.wpcf7 input[type="text"]:focus, .wpcf7 input[type="email"]:focus, .wpcf7 textarea:focus{
+	background: #fff;
+}
+
+.wpcf7-submit{
+	float: right;
+	background: #CA0002;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+.wpcf7-submit:hover{
+	background: #000!important;
+}
+
+span.wpcf7-not-valid-tip{
+	text-shadow: none;
+	font-size: 12px;
+	color: #fff;
+	background: #ff0000;
+	padding: 5px;
+}
+div.wpcf7-validation-errors { 
+	text-shadow: none;
+	border: transparent;
+	background: #f9cd00;
+	padding: 5px;
+	color: #9C6533;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
+div.wpcf7-mail-sent-ok{
+	text-align: center;
+	text-shadow: none;
+	padding: 5px;
+	font-size: 12px;
+	background: #59a80f;
+	border-color: #59a80f;
+	color: #fff;
+	margin: 0;
+}
+
+/*** Form style ***/
+
+.wpcf7-form span.required {
+    color: red;
+}
+
+
+.wpcf7-form input { 
+	background:#f7f8f9;
+        border-radius:2px;
+
+}
+ 
+.wpcf7-form textarea { 
+	background:#f7f8f9; 
+	border-radius:2px;
+}
+ 
+.wpcf7-form .wpcf7-submit { 
+	background:#ff5e00; 
+	cursor:pointer; 
+	color:#fff; 
+	border-radius:0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #ff5e00; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #ff7e33; 
+}
+#footerwrap {	background: none;
+	background-color: #090a0c; 
+}
+#footer {	
+	color: #ffffff; 
+}
+#footer a {	
+	color: #ff5e00; 
+}
+ }@media screen and (max-width: 480px) { /* Themify Customize Styling */
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #f37e2f; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #ff7e33; 
+}
+#footerwrap {	background: none;
+	background-color: #04070e; 
+}
+#footer {	
+	color: #ffffff; 
+}
+#footer a {	
+	color: #ff5e00; 
+}
+ }

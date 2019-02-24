@@ -1,0 +1,18 @@
+.themify_builder_1096_row.module_row_1.module_row{background-image: url("https://themify.me/demo/themes/ultra-accountant/files/2017/03/news-banner-min.jpg"); text-align: center; padding-top:12%; padding-bottom:12%; }
+.themify_builder_1096_row.module_row_1.module_row>.builder_row_cover{background-color:rgba(33,69,107, 0.78); }
+.themify_builder_1096_row.module_row_1.module_row,.themify_builder_1096_row.module_row_1 h1,.themify_builder_1096_row.module_row_1 h2,.themify_builder_1096_row.module_row_1 h3:not(.module-title),.themify_builder_1096_row.module_row_1 h4,.themify_builder_1096_row.module_row_1 h5,.themify_builder_1096_row.module_row_1 h6{color:#ffffff; }
+.themify_builder .fancy-heading-1096-1-0-0.module-fancy-heading{background-repeat: repeat; }
+.themify_builder .fancy-heading-1096-1-0-0.module .main-head{font-family: Abril Fatface; }
+.themify_builder .fancy-heading-1096-1-0-0.module .sub-head{font-size:15px; }
+.themify_builder .plain-text-1096-1-0-1.module-plain-text a{text-decoration: underline; }
+.themify_builder_1096_row.module_row_2.module_row{padding-top:6%; padding-bottom:6%; }
+@media screen and (max-width: 1024px) {.themify_builder_1096_row.module_row_2 a{text-decoration: underline; }
+.themify_builder_1096_row.module_row_2.module_row{padding-bottom:30px; }
+}
+@media screen and (max-width: 768px) {.themify_builder_1096_row.module_row_2 a{text-decoration: underline; }
+.themify_builder_1096_row.module_row_2.module_row{padding-bottom:40px; }
+}
+@media screen and (max-width: 480px) {.themify_builder_1096_row.module_row_2 a{text-decoration: underline; }
+.themify_builder_1096_row.module_row_2.module_row{padding-top:60px; padding-bottom:40px; }
+}
+.themify_builder .post-1096-2-0-0.module-post a{text-decoration: underline; }

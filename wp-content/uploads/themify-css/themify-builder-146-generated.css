@@ -1,0 +1,63 @@
+/* .themify_builder_146_row.module_row_0 Style */
+.themify_builder_146_row.module_row_0.module_row {
+	background-image: url(https://ittaskforce.nz/wp-content/uploads/2017/10/pexels-photo-461077.jpeg);
+	text-align: center;
+	padding-top : 19%;
+	padding-bottom : 19%
+}
+.themify_builder_146_row.module_row_0.module_row>.builder_row_cover {
+	background:rgba(36,36,36, 0.25)
+}
+.themify_builder_146_row.module_row_0.module_row> div > .builder_row_cover {
+	background:rgba(36,36,36, 0.25)
+}
+
+.themify_builder .text-146-1-0-0.module-text { text-align: center; padding-top: 10%; padding-bottom: 5%;  } 
+.themify_builder .text-146-1-0-1.module-text { text-align: center; padding-bottom: 5%;  } 
+/* .themify_builder_146_row.module_row_2 Style */
+.themify_builder_146_row.module_row_2.module_row {
+	
+	background-color: rgba(241,245,251, 1.00);
+	padding-top : 4%
+}
+
+.themify_builder .text-146-2-0-0.module-text { text-align: center;  } 
+.themify_builder .text-146-2-0-1.module-text { text-align: center; padding-bottom: 30px;  } 
+.themify_builder .image-146-sub_row_2-0-2-0-0.module-image { margin-bottom: 20px;  } 
+@media screen and (max-width: 768px) {.themify_builder .image-146-sub_row_2-0-2-0-0.module-image .image-title { font-size: 22px;  } 
+}
+.themify_builder .image-146-sub_row_2-0-2-1-0.module-image { margin-bottom: 20px;  } 
+@media screen and (max-width: 768px) {.themify_builder .image-146-sub_row_2-0-2-1-0.module-image .image-title { font-size: 22px;  } 
+}
+.themify_builder .image-146-sub_row_2-0-2-2-0.module-image { margin-bottom: 20px;  } 
+@media screen and (max-width: 768px) {.themify_builder .image-146-sub_row_2-0-2-2-0.module-image .image-title { font-size: 22px;  } 
+}
+/* .themify_builder_146_row.module_row_3 Style */
+.themify_builder_146_row.module_row_3.module_row {
+	
+	background-color: rgba(241,245,251, 1.00);
+	padding-top : 5%;
+	padding-bottom : 5%
+}
+
+.themify_builder .buttons-146-3-0-0 div.module-buttons { text-align: center;  } 
+/* .themify_builder_146_row.module_row_4 Style */
+.themify_builder_146_row.module_row_4.module_row {
+	padding-top : 4%;
+	padding-bottom : 4%
+}
+
+.themify_builder .text-146-4-0-0.module-text { text-align: center; margin-bottom: 30px;  } 
+/* .themify_builder_146_row.module_row_6 Style */
+.themify_builder_146_row.module_row_6.module_row {
+	padding-top : 5%;
+	padding-bottom : 5%
+}
+
+.themify_builder .text-146-6-0-0.module-text { text-align: center; margin-bottom: 30px;  } 
+/* .module_row_6 .module_column_0 .sub_row_6-0-1 Style */
+.module_row_6 .module_column_0 .sub_row_6-0-1.module_subrow {
+	text-align: center
+}
+
+.themify_builder .image-146-sub_row_6-0-1-0-0.module-image .image-content { text-align: center;  } 

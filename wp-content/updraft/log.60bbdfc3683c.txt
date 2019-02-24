@@ -1,0 +1,335 @@
+0000.006 (0) Opened log file at time: Tue, 06 Feb 2018 20:22:19 +0000 on https://ittaskforce.co.nz
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.2 WP: 4.9.3 PHP: 7.0.22-0ubuntu0.16.04.1 (apache2handler, Linux ITTF-WEB-02 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64) MySQL: 5.7.21 WPLANG: en_NZ Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.9M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.129 (0) Free space on disk containing Updraft's temporary directory: 8083.4 MB
+0000.150 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.152 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.177 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1517343759, seconds_ago=604780)
+0000.223 (0) Set semaphore last lock (fd) time to 2018-02-06 20:22:19
+0000.224 (0) Semaphore lock (fd) complete
+0000.231 (0) Backup run: resumption=0, nonce=60bbdfc3683c, begun at=1517948539 (0s ago), job type=backup
+0000.246 (0) Scheduling a resumption (1) after 300 seconds (1517948839) in case this run gets aborted
+0000.281 (0) Checking if we have a zip executable available
+0000.298 (0) Zip engine: ZipArchive is not available or is disabled (will use PclZip if needed)
+0000.299 (0) Creation of backups of directories: beginning
+0000.311 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.781 (0) Total entities for the zip file: 457 directories, 2660 files (0 skipped as non-modified), 39.4 MB
+0000.786 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 40335.5 KB, split: 409600 KB)
+0000.815 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.846 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.849 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.869 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.872 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.881 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.893 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.915 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.923 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.934 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.945 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.952 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.955 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0000.959 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0000.962 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0000.970 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0000.975 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0000.979 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0000.983 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0000.997 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.010 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.020 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.030 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.034 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.038 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.064 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0012.461 (0) Created plugins zip (0) - 14365.5 KB in 12.1 s (1183.3 KB/s) (sha1: 6d360cf2836aad4b21d9b75305c7137ecf907a51, sha256: a62a1cb3a82ee935dcff84489e11d7d0a18e73e98bea0cd2006d892bb90c50e7)
+0012.471 (0) Beginning creation of dump of themes (split every: 400 MB)
+0012.698 (0) Total entities for the zip file: 103 directories, 939 files (0 skipped as non-modified), 20.9 MB
+0012.713 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 21364.6 KB, split: 409600 KB)
+0012.720 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.735 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.738 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.742 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.746 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.749 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0012.753 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0012.756 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0012.760 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0015.979 (0) Created themes zip (0) - 7084 KB in 3.5 s (2020.1 KB/s) (sha1: 8a11f2c6c5a0a535bfde679bc35cbd599e122518, sha256: fc225028f633d34fd278f0024725c12dffdc7f2532e22a6ae9f04aca348e0c82)
+0015.981 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.986 (0) Looking for candidates to back up in: /var/www/ittaskforce.nz/public_html/wp-content/uploads
+0016.024 (0) finding files: formidable: adding to list (1)
+0016.025 (0) finding files: wpcf7_captcha: adding to list (2)
+0016.025 (0) finding files: themify-css: adding to list (3)
+0016.026 (0) finding files: 2018: adding to list (4)
+0016.026 (0) finding files: themify-customizer.css: adding to list (5)
+0016.027 (0) finding files: themify: adding to list (6)
+0016.028 (0) finding files: 2017: adding to list (7)
+0016.028 (0) finding files: bws_captcha_images: adding to list (8)
+0016.029 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0016.187 (0) Total entities for the zip file: 28 directories, 242 files (0 skipped as non-modified), 7.1 MB
+0016.188 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 7305.6 KB, split: 409600 KB)
+0016.192 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.195 (0) Zip: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.544 (0) Created uploads zip (0) - 6438 KB in 1.5 s (4257.5 KB/s) (sha1: 7215acb476d78955bea8b3cf61a77523d2f3b014, sha256: 23a367a1566092a29b0c90f05b73dfe6db10431ec80e007df037fb74eabc13d9)
+0017.547 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.548 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.549 (0) Looking for candidates to back up in: /var/www/ittaskforce.nz/public_html/wp-content
+0017.557 (0) finding files: upgrade: skipping: excluded by options
+0017.558 (0) finding files: themes: skipping: this is the themes directory
+0017.559 (0) finding files: updraft: skipping: this is the updraft directory
+0017.559 (0) finding files: uploads: skipping: this is the uploads directory
+0017.570 (0) finding files: index.php: adding to list (1)
+0017.571 (0) finding files: languages: adding to list (2)
+0017.571 (0) finding files: plugins: skipping: this is the plugins directory
+0017.594 (0) Total entities for the zip file: 3 directories, 15 files (0 skipped as non-modified), 1.6 MB
+0017.595 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 1631 KB, split: 409600 KB)
+0017.761 (0) Created others zip (0) - 392.7 KB in 0.2 s (2217.2 KB/s) (sha1: afc2a221478d7262aa5895533576c635ab165791, sha256: 867c8991166c067ea6852294dae0fb89259002b03ad0a77e02d16f1593cf01f1)
+0017.792 (0) Saving backup status to database (elements: 8)
+0017.798 (0) Beginning creation of database dump (WordPress DB)
+0017.801 (0) Testing: /usr/bin/mysqldump
+0018.084 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1209 bytes total)
+0018.092 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.212 (0) Table wp_options: Total expected rows (approximate): 259
+0018.232 (0) Table wp_options: Total rows added: 260 in 0.02 seconds
+0018.234 (0) Table wp_options: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_options.table.gz - 39.6 KB)
+0018.238 (0) Table wp_users: Total expected rows (approximate): 0
+0018.241 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0018.242 (0) Table wp_users: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_users.table.gz - 0.6 KB)
+0018.253 (0) Table wp_usermeta: Total expected rows (approximate): 52
+0018.264 (0) Table wp_usermeta: Total rows added: 51 in 0.01 seconds
+0018.266 (0) Table wp_usermeta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_usermeta.table.gz - 3.9 KB)
+0018.274 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0018.284 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0018.285 (0) Table wp_commentmeta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0018.290 (0) Table wp_comments: Total expected rows (approximate): 0
+0018.299 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0018.301 (0) Table wp_comments: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_comments.table.gz - 0.7 KB)
+0018.325 (0) Table wp_links: Total expected rows (approximate): 0
+0018.330 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0018.331 (0) Table wp_links: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_links.table.gz - 0.4 KB)
+0018.336 (0) Table wp_postmeta: Total expected rows (approximate): 456
+0018.544 (0) Table wp_postmeta: Total rows added: 494 in 0.21 seconds
+0018.546 (0) Table wp_postmeta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_postmeta.table.gz - 96.1 KB)
+0018.550 (0) Table wp_posts: Total expected rows (approximate): 154
+0018.642 (0) Table wp_posts: Total rows added: 292 in 0.09 seconds
+0018.644 (0) Table wp_posts: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_posts.table.gz - 48.8 KB)
+0018.648 (0) Table wp_term_relationships: Total expected rows (approximate): 60
+0018.651 (0) Table wp_term_relationships: Total rows added: 60 in 0.00 seconds
+0018.652 (0) Table wp_term_relationships: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0018.683 (0) Table wp_term_taxonomy: Total expected rows (approximate): 10
+0018.686 (0) Table wp_term_taxonomy: Total rows added: 10 in 0.00 seconds
+0018.687 (0) Table wp_term_taxonomy: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0018.706 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0018.708 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0018.709 (0) Table wp_termmeta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_termmeta.table.gz - 0.4 KB)
+0018.713 (0) Table wp_terms: Total expected rows (approximate): 10
+0018.724 (0) Table wp_terms: Total rows added: 10 in 0.01 seconds
+0018.725 (0) Table wp_terms: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_terms.table.gz - 0.5 KB)
+0018.729 (0) Table wp_cptch_images: Total expected rows (approximate): 112
+0018.743 (0) Table wp_cptch_images: Total rows added: 112 in 0.01 seconds
+0018.744 (0) Table wp_cptch_images: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_images.table.gz - 0.9 KB)
+0018.749 (0) Table wp_cptch_packages: Total expected rows (approximate): 12
+0018.753 (0) Table wp_cptch_packages: Total rows added: 12 in 0.00 seconds
+0018.754 (0) Table wp_cptch_packages: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_packages.table.gz - 0.5 KB)
+0018.834 (0) Table wp_cptch_whitelist: Total expected rows (approximate): 0
+0018.836 (0) Table wp_cptch_whitelist: Total rows added: 0 in 0.00 seconds
+0018.837 (0) Table wp_cptch_whitelist: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_whitelist.table.gz - 0.3 KB)
+0018.846 (0) Table wp_frm_fields: Total expected rows (approximate): 14
+0018.857 (0) Table wp_frm_fields: Total rows added: 14 in 0.01 seconds
+0018.858 (0) Table wp_frm_fields: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_fields.table.gz - 1 KB)
+0018.863 (0) Table wp_frm_forms: Total expected rows (approximate): 2
+0018.883 (0) Table wp_frm_forms: Total rows added: 3 in 0.02 seconds
+0018.885 (0) Table wp_frm_forms: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_forms.table.gz - 1.1 KB)
+0018.915 (0) Table wp_frm_item_metas: Total expected rows (approximate): 0
+0018.917 (0) Table wp_frm_item_metas: Total rows added: 0 in 0.00 seconds
+0018.918 (0) Table wp_frm_item_metas: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_item_metas.table.gz - 0.3 KB)
+0018.933 (0) Table wp_frm_items: Total expected rows (approximate): 0
+0018.939 (0) Table wp_frm_items: Total rows added: 0 in 0.01 seconds
+0018.941 (0) Table wp_frm_items: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_items.table.gz - 0.5 KB)
+0018.951 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 82
+0018.954 (0) Table wp_nf3_action_meta: Total rows added: 86 in 0.00 seconds
+0018.955 (0) Table wp_nf3_action_meta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_action_meta.table.gz - 1.3 KB)
+0018.960 (0) Table wp_nf3_actions: Total expected rows (approximate): 4
+0018.963 (0) Table wp_nf3_actions: Total rows added: 4 in 0.00 seconds
+0018.964 (0) Table wp_nf3_actions: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+0018.969 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 269
+0018.974 (0) Table wp_nf3_field_meta: Total rows added: 269 in 0.00 seconds
+0018.976 (0) Table wp_nf3_field_meta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_field_meta.table.gz - 2.1 KB)
+0018.980 (0) Table wp_nf3_fields: Total expected rows (approximate): 4
+0018.983 (0) Table wp_nf3_fields: Total rows added: 4 in 0.00 seconds
+0018.984 (0) Table wp_nf3_fields: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_fields.table.gz - 0.5 KB)
+0019.001 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 96
+0019.009 (0) Table wp_nf3_form_meta: Total rows added: 98 in 0.01 seconds
+0019.011 (0) Table wp_nf3_form_meta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_form_meta.table.gz - 1.2 KB)
+0019.041 (0) Table wp_nf3_forms: Total expected rows (approximate): 0
+0019.044 (0) Table wp_nf3_forms: Total rows added: 1 in 0.00 seconds
+0019.045 (0) Table wp_nf3_forms: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_forms.table.gz - 0.4 KB)
+0019.064 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0019.066 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0019.067 (0) Table wp_nf3_object_meta: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0019.080 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0019.090 (0) Table wp_nf3_objects: Total rows added: 0 in 0.01 seconds
+0019.091 (0) Table wp_nf3_objects: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_objects.table.gz - 0.4 KB)
+0019.104 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0019.108 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0019.109 (0) Table wp_nf3_relationships: finishing file (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+0019.117 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_options.table.gz (1/28): adding to final database dump
+0019.132 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_users.table.gz (2/28): adding to final database dump
+0019.133 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_usermeta.table.gz (3/28): adding to final database dump
+0019.135 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_commentmeta.table.gz (4/28): adding to final database dump
+0019.137 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_comments.table.gz (5/28): adding to final database dump
+0019.138 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_links.table.gz (6/28): adding to final database dump
+0019.139 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_postmeta.table.gz (7/28): adding to final database dump
+0019.222 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_posts.table.gz (8/28): adding to final database dump
+0019.249 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_term_relationships.table.gz (9/28): adding to final database dump
+0019.251 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_term_taxonomy.table.gz (10/28): adding to final database dump
+0019.252 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_termmeta.table.gz (11/28): adding to final database dump
+0019.253 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_terms.table.gz (12/28): adding to final database dump
+0019.254 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_images.table.gz (13/28): adding to final database dump
+0019.256 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_packages.table.gz (14/28): adding to final database dump
+0019.257 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_cptch_whitelist.table.gz (15/28): adding to final database dump
+0019.258 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_fields.table.gz (16/28): adding to final database dump
+0019.259 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_forms.table.gz (17/28): adding to final database dump
+0019.260 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_item_metas.table.gz (18/28): adding to final database dump
+0019.262 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_frm_items.table.gz (19/28): adding to final database dump
+0019.263 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_action_meta.table.gz (20/28): adding to final database dump
+0019.264 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_actions.table.gz (21/28): adding to final database dump
+0019.265 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_field_meta.table.gz (22/28): adding to final database dump
+0019.267 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_fields.table.gz (23/28): adding to final database dump
+0019.268 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_form_meta.table.gz (24/28): adding to final database dump
+0019.270 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_forms.table.gz (25/28): adding to final database dump
+0019.271 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_object_meta.table.gz (26/28): adding to final database dump
+0019.272 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_objects.table.gz (27/28): adding to final database dump
+0019.273 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db-table-wp_nf3_relationships.table.gz (28/28): adding to final database dump
+0019.274 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz: finished writing out complete database file (184 KB)
+0019.285 (0) Total database tables backed up: 28 (backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz, size: 202084, sha256)
+0019.308 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.309 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.310 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.311 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.312 (0) backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.313 (0) Saving backup history. Total backup size: 27.8 MB
+0019.319 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.322 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0019.323 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-424dfbbe4f427acbebed22999a88cfdf)
+0019.663 (0) FTP upload attempt: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip -> ftp://Website@remote.ittaskforce.co.nz//backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip
+0019.713 (0) Ftp chunked upload: 3.6 % uploaded
+0019.738 (0) Ftp chunked upload: 7.2 % uploaded
+0019.762 (0) Ftp chunked upload: 10.8 % uploaded
+0019.803 (0) Ftp chunked upload: 14.4 % uploaded
+0019.844 (0) Ftp chunked upload: 21.5 % uploaded
+0019.887 (0) Ftp chunked upload: 28.7 % uploaded
+0019.963 (0) Ftp chunked upload: 43 % uploaded
+0020.049 (0) Ftp chunked upload: 57.2 % uploaded
+0020.150 (0) Ftp chunked upload: 71.5 % uploaded
+0020.239 (0) Ftp chunked upload: 85.8 % uploaded
+0020.346 (0) FTP upload attempt successful (14365.5KB in 0.68s)
+0020.349 (0) Recording as successfully uploaded: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip (8948c0bfb19a25bd5d0c6b3ffaa42347)
+0020.378 (0) Deleting local file: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-plugins.zip: OK
+0020.385 (0) FTP upload attempt: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip -> ftp://Website@remote.ittaskforce.co.nz//backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip
+0020.409 (0) Ftp chunked upload: 7.3 % uploaded
+0020.437 (0) Ftp chunked upload: 14.6 % uploaded
+0020.459 (0) Ftp chunked upload: 21.8 % uploaded
+0020.485 (0) Ftp chunked upload: 29.1 % uploaded
+0020.550 (0) Ftp chunked upload: 43.6 % uploaded
+0020.591 (0) Ftp chunked upload: 58.1 % uploaded
+0020.680 (0) Ftp chunked upload: 87.1 % uploaded
+0020.736 (0) FTP upload attempt successful (7084KB in 0.35s)
+0020.738 (0) Recording as successfully uploaded: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip (89fa0af756ce71628dbc32c24af53deb)
+0020.744 (0) Deleting local file: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-themes.zip: OK
+0020.745 (0) FTP upload attempt: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip -> ftp://Website@remote.ittaskforce.co.nz//backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip
+0020.779 (0) Ftp chunked upload: 8 % uploaded
+0020.800 (0) Ftp chunked upload: 16 % uploaded
+0020.822 (0) Ftp chunked upload: 24 % uploaded
+0020.877 (0) Ftp chunked upload: 32.1 % uploaded
+0020.917 (0) Ftp chunked upload: 48 % uploaded
+0020.957 (0) Ftp chunked upload: 64 % uploaded
+0021.036 (0) Ftp chunked upload: 95.8 % uploaded
+0021.066 (0) FTP upload attempt successful (6438KB in 0.32s)
+0021.077 (0) Recording as successfully uploaded: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip (cbc984cb0d5a8f77ebf1cb641cd66f4e)
+0021.082 (0) Deleting local file: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-uploads.zip: OK
+0021.083 (0) FTP upload attempt: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-others.zip -> ftp://Website@remote.ittaskforce.co.nz//backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-others.zip
+0021.105 (0) FTP upload attempt successful (392.7KB in 0.02s)
+0021.125 (0) Recording as successfully uploaded: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-others.zip (345215376d7010dd3baa088b5cde1e4c)
+0021.129 (0) Deleting local file: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-others.zip: OK
+0021.130 (0) FTP upload attempt: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz -> ftp://Website@remote.ittaskforce.co.nz//backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz
+0021.144 (0) FTP upload attempt successful (197.3KB in 0.01s)
+0021.147 (0) Recording as successfully uploaded: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz (deb1c655fe24b75a537b0704832519be)
+0021.151 (0) Deleting local file: backup_2018-02-07-0822_IT_Task_Force_60bbdfc3683c-db.gz: OK
+0021.153 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=53, retain_db=53
+0021.155 (0) Number of backup sets in history: 16; groups (db): 1
+0021.166 (0) Examining (for databases) backup set with group_id=0, nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+0021.167 (0) This backup set is the backup set just made, so will not be deleted.
+0021.167 (0) Examining (for databases) backup set with group_id=0, nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+0021.167 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.168 (0) Examining (for databases) backup set with group_id=0, nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+0021.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.169 (0) Examining (for databases) backup set with group_id=0, nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+0021.169 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.170 (0) Examining (for databases) backup set with group_id=0, nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+0021.170 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.170 (0) Number of backup sets in history: 16; groups (files): 1
+0021.171 (0) Examining (for files) backup set with nonce=60bbdfc3683c, datestamp=1517948539 (Feb 06 2018 20:22:19)
+0021.171 (0) This backup set is the backup set just made, so will not be deleted.
+0021.172 (0) This backup set is the backup set just made, so will not be deleted.
+0021.172 (0) This backup set is the backup set just made, so will not be deleted.
+0021.172 (0) This backup set is the backup set just made, so will not be deleted.
+0021.172 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.173 (0) Examining (for files) backup set with nonce=5a8242d9649e, datestamp=1517343759 (Jan 30 2018 20:22:39)
+0021.173 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=150e9ca9b0bf, datestamp=1516738935 (Jan 23 2018 20:22:15)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=4308af1fc94d, datestamp=1516134335 (Jan 16 2018 20:25:35)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=902c4447606f, datestamp=1515529416 (Jan 09 2018 20:23:36)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=2e688eb8df2d, datestamp=1514927438 (Jan 02 2018 21:10:38)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=fd06188713a8, datestamp=1514320123 (Dec 26 2017 20:28:43)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=6d0b1b97ad1b, datestamp=1513715074 (Dec 19 2017 20:24:34)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.174 (0) Examining (for files) backup set with nonce=0153e3b31daa, datestamp=1513110626 (Dec 12 2017 20:30:26)
+0021.174 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=97085e991e81, datestamp=1512505335 (Dec 05 2017 20:22:15)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=9d5adefec815, datestamp=1511901422 (Nov 28 2017 20:37:02)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=1fe35c8d6c68, datestamp=1511295741 (Nov 21 2017 20:22:21)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=838ede2d05b5, datestamp=1510690554 (Nov 14 2017 20:15:54)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=30878cf527c9, datestamp=1510104229 (Nov 08 2017 01:23:49)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.175 (0) Examining (for files) backup set with nonce=4282b2e3093f, datestamp=1510023595 (Nov 07 2017 02:59:55)
+0021.175 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.176 (0) Examining (for files) backup set with nonce=8757d304855b, datestamp=1509798840 (Nov 04 2017 12:34:00)
+0021.176 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.176 (0) Retain: saving new backup history (sets now: 16) and finishing retain operation
+0021.179 (0) Resume backup (60bbdfc3683c, 0): finish run
+0021.182 (0) Decremented the semaphore (fd) by 1
+0021.184 (0) Semaphore (fd) unlocked
+0021.191 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0021.199 (0) No email will/can be sent - the user has not configured an email address.
+0021.200 (0) The backup apparently succeeded and is now complete

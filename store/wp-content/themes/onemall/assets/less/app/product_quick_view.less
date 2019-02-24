@@ -1,0 +1,68 @@
+.fancybox-wrap {
+	.fancybox-outer {
+		background-color: #fff;
+		.product_detail .content_product_detail .product-summary-bottom .cart .quantity {
+			margin-right: 10px;
+			.rtl & {
+				margin-right: 0;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+.quickview-container.woocommerce {
+	padding-top: 15px;
+	.product_detail{
+		overflow:hidden;
+	}
+	.slider_img_productd{
+		.product-responsive{
+			border:0 !important;
+			overflow:visible !important;
+		}
+		.images{
+			margin-bottom:0;
+		}
+		span.onsale{
+			display:none;
+		}
+	}
+	.product_detail .content_product_detail{
+		padding-bottom:15px;
+	}
+	.product_detail .content_product_detail{
+		.yith-wcwl-add-to-wishlist .yith-wcwl-add-button a{
+			background-image:none;
+			&:hover{
+				background-color:@color !important;
+				&:before{
+					color:#fff;
+				}
+			}
+		}
+		.price del{
+			line-height:22px;
+		}
+		.social-share{
+			.wrap-content  a{
+				    display: inline-block;
+					width: 34px;
+					height: 34px;
+					color: #fff;
+					background-color: #ccc;
+					line-height: 34px;
+					border-radius: 50%;
+					text-align: center;
+					margin: 0 3px;
+					font-size:14px;
+				&:hover{
+					background-color:@color;
+					color:#fff;
+				}
+			}
+		}
+	}
+}
+.rtl .quickview-container.woocommerce div.product form.cart div.quantity{
+	float:right;
+}

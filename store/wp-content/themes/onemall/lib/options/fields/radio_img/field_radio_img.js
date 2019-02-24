@@ -1,0 +1,13 @@
+/*
+ *
+ * Onemall_Options_radio_img function
+ * Changes the radio select option, and changes class on images
+ *
+ */
+function onemall_radio_img_select(relid, labelclass){
+	jQuery(this).prev('input[type="radio"]').prop('checked');
+
+	jQuery('.onemall-radio-img-'+labelclass).removeClass('onemall-radio-img-selected');	
+	
+	jQuery('label[for="'+relid+'"]').addClass('onemall-radio-img-selected');
+}//function
